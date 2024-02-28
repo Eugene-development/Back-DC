@@ -1,9 +1,8 @@
-version: '3'
+version: "3"
 services:
-
   #PHP Service
   app:
-    image: larux/...:latest
+    image: larux/:latest
     container_name: "..._PHP"
     restart: unless-stopped
     tty: true
